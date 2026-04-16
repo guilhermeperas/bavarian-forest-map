@@ -108,7 +108,7 @@ export const animals: AnimalData[] = [
     id: 'marder',
     nameKey: 'animalMarder',
     descriptionKey: 'animalMarderDesc',
-    icon: '🐾',
+    icon: '🦡',
     x: 430,
     y: 432,
     audioId: 'audio-marder',
