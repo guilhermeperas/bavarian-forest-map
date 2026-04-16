@@ -267,9 +267,7 @@ function navigateTo(page: string) {
   }
 
   .floating-widgets {
-    max-width: 200px;
-    top: var(--space-sm);
-    left: var(--space-sm);
+    display: none;
   }
 
   .widget {

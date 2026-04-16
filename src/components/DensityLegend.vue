@@ -87,4 +87,10 @@ const { t } = useLocale()
   font-weight: var(--font-weight-semibold);
   color: var(--color-text-primary);
 }
+
+@media (max-width: 768px) {
+  .density-legend {
+    display: none;
+  }
+}
 </style>

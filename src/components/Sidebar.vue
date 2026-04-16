@@ -252,6 +252,13 @@ const navItems = [
   .sidebar-lang {
     flex-direction: column;
     padding: 0 var(--space-xs);
+    margin-bottom: 32px;
+  }
+  .lang-btn {
+    min-height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 </style>
