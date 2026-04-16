@@ -1,0 +1,144 @@
+/* ============================================
+   Nationalpark Bayerischer Wald — Design Tokens
+   Dashboard Identity (Forest + Wood Aesthetic)
+   ============================================ */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Inter:wght@400;500;600;700&display=swap');
+
+:root {
+  /* ── Primary Forest Palette ── */
+  --color-forest-900: #0d1f0f;
+  --color-forest-800: #152918;
+  --color-forest-700: #1c3a1e;
+  --color-forest-600: #254d27;
+  --color-forest-500: #2e6232;
+  --color-forest-400: #3d7e42;
+  --color-forest-300: #56a35c;
+  --color-forest-200: #8dc991;
+  --color-forest-100: #c4e6c6;
+  --color-forest-50:  #eaf5eb;
+
+  /* ── Warm Wood / Earth Tones ── */
+  --color-wood-900: #2a1800;
+  --color-wood-800: #4e2f00;
+  --color-wood-700: #7a4a10;
+  --color-wood-600: #9b6120;
+  --color-wood-500: #b87d38;
+  --color-wood-400: #c89a50;
+  --color-wood-300: #d4b070;
+  --color-wood-200: #e4d09a;
+  --color-wood-100: #f2e8c8;
+  --color-wood-50:  #faf7ee;
+
+  --color-wood-panel: #b88656;
+  --color-card-tan: #f5eedf;
+  --color-text-brown: #5c3a21;
+
+  /* ── UI Chrome ── */
+  --color-navbar-bg: #1c3a1e;
+  --color-navbar-border: rgba(255,255,255,0.08);
+  --color-sidebar-bg: #ffffff;
+  --color-bg-primary: #f0ede8;
+  --color-bg-secondary: #ffffff;
+  --color-bg-card: #ffffff;
+  --color-bg-glass: rgba(255, 255, 255, 0.85);
+  --color-bg-overlay: rgba(28, 58, 30, 0.15);
+  --color-surface: #f8f5f0;
+  --color-border: rgba(100, 80, 40, 0.15);
+  --color-border-hover: rgba(100, 80, 40, 0.35);
+  --color-frame: #c8a96a;
+
+  /* ── Text ── */
+  --color-text-primary: #1a1208;
+  --color-text-secondary: #3d5a1f;
+  --color-text-muted: rgba(26, 18, 8, 0.55);
+  --color-text-on-dark: #e8f0e9;
+  --color-text-on-dark-muted: rgba(232, 240, 233, 0.65);
+  --color-text-inverse: #ffffff;
+  --color-text-gold: #c8a030;
+
+  /* ── Accent / Interactive ── */
+  --color-accent: #2e6232;
+  --color-accent-hover: #1c3a1e;
+  --color-gold: #c8a030;
+  --color-gold-light: #f0c040;
+  --color-gold-glow: rgba(200, 160, 48, 0.25);
+  --color-emergency: #b52020;
+  --color-online: #27ae60;
+  --color-offline: #b52020;
+
+  /* ── Traffic Density Colors (flat, no glow) ── */
+  --color-density-low: #4caf50;
+  --color-density-low-glow: rgba(0, 0, 0, 0);
+  --color-density-moderate: #e8900a;
+  --color-density-moderate-glow: rgba(0, 0, 0, 0);
+  --color-density-high: #c0392b;
+  --color-density-high-glow: rgba(0, 0, 0, 0);
+
+  /* ── Map Colors ── */
+  --color-map-park:       #7a9e4e;
+  --color-map-forest:     #5e7e38;
+  --color-map-meadow:     #a4bf70;
+  --color-map-wetland:    #88b494;
+  --color-map-road:       #d4c4a0;
+  --color-map-bg:         #e8e4db;
+  --color-trail-red:      #c0392b;
+  --color-trail-green:    #2e7d32;
+  --color-trail-gray:     #8a8070;
+  --color-trail-road:     #b8a060;
+
+  /* ── Spacing Scale ── */
+  --space-2xs: 0.25rem;
+  --space-xs: 0.5rem;
+  --space-sm: 0.75rem;
+  --space-md: 1rem;
+  --space-lg: 1.5rem;
+  --space-xl: 2rem;
+  --space-2xl: 3rem;
+  --space-3xl: 4rem;
+
+  /* ── Typography ── */
+  --font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  --font-family-display: 'Playfair Display', Georgia, serif;
+  --font-size-xs: 0.7rem;
+  --font-size-sm: 0.8rem;
+  --font-size-base: 0.95rem;
+  --font-size-md: 1.05rem;
+  --font-size-lg: 1.3rem;
+  --font-size-xl: 1.65rem;
+  --font-size-2xl: 2.2rem;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+  --font-weight-semibold: 600;
+  --font-weight-bold: 700;
+  --line-height-tight: 1.2;
+  --line-height-normal: 1.5;
+  --line-height-relaxed: 1.7;
+
+  /* ── Border Radius ── */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+  --radius-lg: 12px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* ── Shadows ── */
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.07);
+  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.10);
+  --shadow-lg: 0 8px 30px rgba(0, 0, 0, 0.14);
+  --shadow-card: 0 2px 8px rgba(100, 80, 20, 0.12);
+
+  /* ── Transitions ── */
+  --transition-fast: 150ms ease;
+  --transition-base: 250ms ease;
+  --transition-slow: 400ms ease;
+  --transition-spring: 350ms cubic-bezier(0.34, 1.56, 0.64, 1);
+
+  /* ── Z-Index Scale ── */
+  --z-map: 1;
+  --z-overlay: 100;
+  --z-player: 200;
+  --z-navbar: 300;
+  --z-modal: 400;
+  --z-emergency: 500;
+}
